@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 
 const { PORT = 3000, BASE_PATH = 'localhost' } = process.env;
 const { ERROR_NOT_FOUND } = require('./utils/errors');
+
 const app = express();
 
 const userRouter = require('./routes/users');

@@ -3,7 +3,9 @@ const mongoose = require('mongoose');
 const { ValidationError, CastError } = mongoose.Error;
 
 const Card = require('../models/card');
-const { ERROR_BAD_REQUEST, ERROR_NOT_FOUND, ERROR_SERVER } = require('../utils/errors');
+const {
+  ERROR_BAD_REQUEST, ERROR_NOT_FOUND, ERROR_SERVER, SUCCESS_CREATED,
+} = require('../utils/errors');
 
 const getCardList = (req, res) => {
   Card.find({})
