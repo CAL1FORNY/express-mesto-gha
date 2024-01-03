@@ -7,9 +7,6 @@
 - Node
 - Express
 - Mongodb
-- ESLint (Airbnb)
-- Nodemon
-- EditorConfig
 
 
 ## Директории
